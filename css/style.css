@@ -773,7 +773,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(40, 40, 41, 0.8), rgba(18, 58, 90, 0.8)), url(../img/will3.jpg);
+  background-image: linear-gradient(to right bottom, rgba(40, 40, 41, 0.8), rgba(18, 58, 90, 0.8)), url(../img/nat-7.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -784,7 +784,7 @@ body {
       height: 95vh; } }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .header {
-      background-image: linear-gradient(to right bottom, rgba(21, 20, 61, 0.8), rgba(43, 86, 206, 0.8)), url(../img/hero.jpg); } }
+      background-image: linear-gradient(to right bottom, rgba(21, 20, 61, 0.8), rgba(43, 86, 206, 0.8)), url(../img/nat-7.jpg); } }
   @media only screen and (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -939,7 +939,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(40, 40, 41, 0.8), rgba(18, 58, 90, 0.8)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(40, 40, 41, 0.8), rgba(18, 58, 90, 0.8)), url(../img/nat-5.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
