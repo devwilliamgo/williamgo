@@ -68,8 +68,8 @@
       &-6 {
         background-image: linear-gradient(
           to right bottom,
-          rgba(230, 20, 83, 0.753),
-          rgba(29, 38, 160, 0.925)
+          rgba(255,162,0,0.753),
+            rgba(255,56,0,0.925)
         );
       }
     }
@@ -94,27 +94,27 @@
     border-top-right-radius: 3px;
 
     &--1 {
-      background-image: url(../img/developers.png);
+      background-image: url(../img/developers.webp);
     }
 
     &--2 {
-      background-image: url(../img/ufv.png);
+      background-image: url(../img/ufv.webp);
     }
 
     &--3 {
-      background-image: url(../img/node_socket.png);
+      background-image: url(../img/node_socket.webp);
     }
 
     &--4 {
-      background-image: url(../img/sfc.png);
+      background-image: url(../img/sfc.webp);
     }
 
     &--5 {
-      background-image: url(../img/big_orange.png);
+      background-image: url(../img/big_orange.webp);
     }
 
     &--6 {
-      background-image: url(../img/itunes.png);
+      background-image: url(../img/pizza.webp);
     }
   }
 
