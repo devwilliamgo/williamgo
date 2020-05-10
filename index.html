@@ -1,73 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <!--<link rel="stylesheet" href="css/icon-font.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/style.css">
-<!--         <link rel="shortcut icon" type="image/png" href="img/favicon.png"> -->
+    <!--<link rel="stylesheet" href="css/icon-font.css">-->
 
-        <title>William Go | Portfolio</title>
-    </head>
+    <link rel="stylesheet" href="css/style.css">
+    <!--         <link rel="shortcut icon" type="image/png" href="img/favicon.png"> -->
 
-    <body>
-        <div class="navigation">
-            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <title>William Go | Portfolio</title>
+</head>
 
-            <label for="navi-toggle" class="navigation__button">
-                <span class="navigation__icon">&nbsp;</span>
-            </label>
+<body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
-            <div class="navigation__background">&nbsp;</div>
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
 
-            <nav class="navigation__nav">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#about" class="navigation__link"><span>01</span>About Me</a></li>
-                    <li class="navigation__item"><a href="#skills" class="navigation__link"><span>02</span>Skills</a></li>
-                    <li class="navigation__item"><a href="#section-tours" class="navigation__link"><span>03</span>Projects</a></li>
-                    </ul>
-            </nav>
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#about" class="navigation__link"><span>01</span>About Me</a></li>
+                <li class="navigation__item"><a href="#skills" class="navigation__link"><span>02</span>Skills</a></li>
+                <li class="navigation__item"><a href="#section-tours"
+                        class="navigation__link"><span>03</span>Projects</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="header">
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Hello!</span>
+                <span class="heading-primary--sub">I am William</span>
+            </h1>
+
+            <a href="#section-tours" class="btn btn--white btn--animated">View my work</a>
         </div>
+    </header>
 
-        <header class="header"> 
-            <div class="header__text-box">
-                <h1 class="heading-primary">
-                    <span class="heading-primary--main">Hello!</span>
-                    <span class="heading-primary--sub">I am William</span>
-                </h1>
-
-                <a href="#section-tours" class="btn btn--white btn--animated">View my work</a>
+    <main>
+        <section class="section-about" id="about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    About Me
+                </h2>
             </div>
-        </header>
 
-        <main>
-            <section class="section-about" id="about">
-                <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary">
-                        About Me
-                    </h2>
-                </div>
+            <div class="row">
+                <div class="col-1-of-1">
+                    <h3 class="heading-tertiary u-margin-bottom-small">Hello everyone!</h3>
+                    <p class="paragraph">
+                        My name is William Gilbert Go. I am a hard-working developer with an aptitude for creating
+                        elegant solutions in the least amount of time. Building mobile-first, easy to use, user-friendly
+                        web applications is truly a passion of mine. I have developed online booking and registration
+                        systems, web portal, and casino-themed online games. As someone who is passionate about software
+                        architecture and cloud computing, I actively seek out new technologies and stay up-to-date on
+                        industry trends and innovations. In addition, I attend web developer meetups and hackathons in
+                        Vancouver.
+                        My Linkedin profile can be found <a
+                            href="https://www.linkedin.com/in/william-gilbert-go-5b25b819a/" target="_blank">here</a>.
+                    </p>
 
-                <div class="row">
-                    <div class="col-1-of-1">
-                        <h3 class="heading-tertiary u-margin-bottom-small">Hello everyone!</h3>
-                        <p class="paragraph">
-                            My name is William Gilbert Go. I am a hard-working developer with an aptitude for creating elegant solutions in the least amount of time. Building mobile-first, easy to use, user-friendly web applications is truly a passion of mine. I have developed online booking and registration systems, web portal, and casino-themed online games. As someone who is passionate about software architecture and cloud computing, I actively seek out new technologies and stay up-to-date on industry trends and innovations. In addition, I attend web developer meetups and hackathons in Vancouver.
-                            My Linkedin profile can be found <a href="https://www.linkedin.com/in/william-gilbert-go-5b25b819a/" target="_blank">here</a>.
-                        </p>
-
-<!--                         <h3 class="heading-tertiary u-margin-bottom-small">Web Development</h3>
+                    <!--                         <h3 class="heading-tertiary u-margin-bottom-small">Web Development</h3>
                         <p class="paragraph">
                             I truly enjoy building mobile-first single page applications using popular Javascript libraries. React is my most favorite Javascript library because it is object-oriented, which means that React allows us to build re-usable UI components. On the back end, Node JS is my expertise. This runtime environment technology allows developers to create highly-scalable web applications. For me, Node JS is an excellent technology to construct RESTful APIs.
                         </p> -->
- 
-                    </div>
-<!--                     <div class="col-1-of-2">
+
+                </div>
+                <!--                     <div class="col-1-of-2">
                         <div class="composition">
 
                             <img srcset="img/will2.jpg 300w, img/nat-1-large.jpg 1000w"
@@ -87,268 +96,275 @@
 
                         </div>
                     </div> -->
-                </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="section-features" id="skills">
-                
-                <div class="row">
-                    <div class="col-1-of-4">
-                        <div class="feature-box">
-                            <i class="feature-box__icon icon-basic-world"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">Node JS and PHP</h3>
-                            <p class="feature-box__text">
-                                Over one year of experience building full stack applications and access-level RESTful API using Node and PHP.
-                            </p>
-                        </div>
-                    </div>
+        <section class="section-features" id="skills">
 
-                    <div class="col-1-of-4">
-                        <div class="feature-box">
-                            <i class="feature-box__icon icon-basic-compass"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">React JS</h3>
-                            <p class="feature-box__text">
-                                Two years of experience building single page applications with React.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-1-of-4">
-                        <div class="feature-box">
-                            <i class="feature-box__icon icon-basic-map"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">Javascript</h3>
-                             <p class="feature-box__text">
-                                Strong understanding of Object-Oriented Javascript programming and frameworks and libraries, such as React, jQuery, Express, and Angular.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-1-of-4">
-                        <div class="feature-box">
-                            <i class="feature-box__icon icon-basic-heart"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">HTML and CSS</h3>
-                            <p class="feature-box__text">
-                                7 years of HTML and CSS expertise
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section-stories" id="section-tours">
-                <div class="bg-video">
-                    <video class="bg-video__content" autoplay muted loop>
-                        <source src="img/video.mp4" type="video/mp4">
-                        <source src="img/video.webm" type="video/webm">
-                            Your browser is not supported!
-                    </video>
-                </div>
-
-                <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary">
-                        Projects
-                    </h2>
-                </div>
-
-                <div class="row">
-                    <div class="col-1-of-3">
-                       <div class="card">
-                           <div class="card__side card__side--front">
-                                <div class="card__picture card__picture--1">
-                                    &nbsp;
-                                </div>
-                                <div class="card__details">
-                                    <ul>
-                                        <li>Node</li>
-                                        <li>React</li>
-                                        <li>Redux</li>
-                                        <li>Express</li>
-                                        <li>Mongo</li>
-                                    </ul>
-                                </div>
-                           </div>
-                           <div class="card__side card__side--back card__side--back-1">
-                                <div class="card__cta">
-                                    <div class="card__price-box">
-                                        <p class="card__price-value">Developers Hub</p>
-                                        <p class="card__price-only">Connect with developers</p>
-                                    </div>
-                                    <a href="https://developershub.herokuapp.com" target="_blank" class="btn btn--white">Visit website</a>
-                                </div>
-                            </div>
-                       </div>
-                    </div>
-
-
-                    <div class="col-1-of-3">
-                        <div class="card">
-                            <div class="card__side card__side--front">
-                                <div class="card__picture card__picture--2">
-                                    &nbsp;
-                                </div> 
-                                <div class="card__details">
-                                    <ul>
-                                        <li>PHP</li>
-                                        <li>Laravel</li> 
-                                        <li>Angular and React</li>
-                                        <li>MySQL</li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                            <div class="card__side card__side--back card__side--back-2">
-                                <div class="card__cta">
-                                    <div class="card__price-box">
-                                        <p class="card__price-value"> Appointment Manager</p>
-                                        <p class="card__price-only">See an academic or career advisor today</p>
-                                    </div>
-                                    <a href="https://am.ufv.ca/amonline/" target="_blank" class="btn btn--white">Visit website</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-1-of-3">
-                        <div class="card">
-                            <div class="card__side card__side--front">
-                                <div class="card__picture card__picture--3">
-                                    &nbsp;
-                                </div>
-                                <div class="card__details">
-                                    <ul>
-                                        <li>Node</li>
-                                        <li>Express</li>
-                                        <li>Socket.io</li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                            <div class="card__side card__side--back card__side--back-3">
-                                <div class="card__cta">
-                                    <div class="card__price-box">
-                                        <p class="card__price-value">Node Messenger</p>
-                                        <p class="card__price-only">Let's talk!</p> 
-                                    </div>
-                                    <a href="https://nodesocketmessenger.herokuapp.com/" target="_blank" class="btn btn--white">Visit website</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- APP -->
-                <div class="row">
-                        <div class="col-1-of-3">
-                           <div class="card">
-                               <div class="card__side card__side--front">
-                                    <div class="card__picture card__picture--4">
-                                        &nbsp;
-                                    </div>
-                                    <div class="card__details">
-                                        <ul>
-                                            <li>Node</li>
-                                            <li>Express</li>
-                                            <li>Mongo</li>
-                                            <li>jQuery</li>
-                                        </ul>
-                                    </div>
-                               </div>
-                               <div class="card__side card__side--back card__side--back-4">
-                                    <div class="card__cta">
-                                        <div class="card__price-box">
-                                            <p class="card__price-value">Relentless Conference</p>
-                                            <p class="card__price-only">Thanks for coming!</p>
-                                        </div>
-                                        <a href="http://relentless-sfcbc.herokuapp.com/" target="_blank" class="btn btn--white">Visit website</a>
-                                    </div>
-                                </div>
-                           </div>
-                        </div>
-    
-    
-                        <div class="col-1-of-3">
-                            <div class="card">
-                                <div class="card__side card__side--front">
-                                    <div class="card__picture card__picture--5">
-                                        &nbsp;
-                                    </div> 
-                                    <div class="card__details">
-                                        <ul>
-                                            <li>Node</li>
-                                            <li>Angular</li>
-                                            <li>Express</li>
-                                            <li>Mongo</li>
-                                        </ul>
-                                    </div>
-    
-                                </div>
-                                <div class="card__side card__side--back card__side--back-5">
-                                    <div class="card__cta">
-                                        <div class="card__price-box">
-                                            <p class="card__price-value">Big Orange</p>
-                                            <p class="card__price-only">Order now!</p>
-                                        </div>
-                                        <a href="http://bigorange.herokuapp.com/" target="_blank" class="btn btn--white">Visit website</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
-    
-                        <div class="col-1-of-3">
-                            <div class="card">
-                                <div class="card__side card__side--front">
-                                    <div class="card__picture card__picture--6">
-                                        &nbsp;
-                                    </div> 
-                                    <div class="card__details">
-                                        <ul>
-                                            <li>Node</li>
-                                            <li>Angular</li>
-                                            <li>Express</li>
-                                            <li>jQuery</li>
-                                        </ul>
-                                    </div>
-    
-                                </div>
-                                <div class="card__side card__side--back card__side--back-6">
-                                    <div class="card__cta">
-                                        <div class="card__price-box">
-                                            <p class="card__price-value">iTunes Search</p>
-                                            <p class="card__price-only">Try me!</p> 
-                                        </div>
-                                        <a href="https://itunesapisearch.herokuapp.com/" target="_blank" class="btn btn--white">Visit website</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                <div class="u-center-text u-margin-top-huge">
-                    <a href="https://github.com/gilberthoop" target="_blank" class="btn btn--green">Check out my Github</a>
-                </div>
-            </section>
-
-        </main>
-
-        <footer class="footer">
             <div class="row">
-                <div class="col-1-of-2">
-                    <div class="footer__navigation">
-                        <ul class="footer__list">
-                            <li class="footer__item"><a href="https://www.instagram.com/gilberthoop/" target="_blank" class="footer__link">Instagram</a></li>
-                            <li class="footer__item"><a href="https://www.facebook.com/gilberthoop/" target="_blank" class="footer__link">Facebook</a></li>
-                            <li class="footer__item"><a href="https://www.github.com/gilberthoop/" target="_blank" class="footer__link">Github</a></li>
-                        </ul>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-world"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Node JS and PHP</h3>
+                        <p class="feature-box__text">
+                            Over one year of experience building full stack applications and access-level RESTful API
+                            using Node and PHP.
+                        </p>
                     </div>
                 </div>
-                <div class="col-1-of-2">
-                    <p class="footer__copyright">
-                        Special thanks to Jonas Schmedtmann for teaching me Syntactically Awesome Style Sheets (SASS).
-                    </p>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-compass"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">React JS</h3>
+                        <p class="feature-box__text">
+                            Two years of experience building single page applications with React.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-map"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Javascript</h3>
+                        <p class="feature-box__text">
+                            Strong understanding of Object-Oriented Javascript programming and frameworks and libraries,
+                            such as React, jQuery, Express, and Angular.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-heart"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">HTML and CSS</h3>
+                        <p class="feature-box__text">
+                            7 years of HTML and CSS expertise
+                        </p>
+                    </div>
                 </div>
             </div>
-        </footer>
-    </body>
+        </section>
+
+        <section class="section-stories" id="section-tours">
+            <div class="bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+                    <source src="img/video.mp4" type="video/mp4">
+                    <source src="img/video.webm" type="video/webm">
+                    Your browser is not supported!
+                </video>
+            </div>
+
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Projects
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--6">
+                                &nbsp;
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>Node</li>
+                                    <li>React</li>
+                                    <li>Redux</li>
+                                    <li>Express</li>
+                                    <li>Mongo</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-6">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-value">Will's Pizzeria</p>
+                                    <p class="card__price-only">Grab Your Pizza</p>
+                                </div>
+                                <a href="https://willspizzeria.herokuapp.com" target="_blank"
+                                    class="btn btn--white">Visit website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>Node</li>
+                                    <li>React</li>
+                                    <li>Redux</li>
+                                    <li>Express</li>
+                                    <li>Mongo</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-1">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-value">Developers Hub</p>
+                                    <p class="card__price-only">Connect with developers</p>
+                                </div>
+                                <a href="https://developershub.herokuapp.com" target="_blank"
+                                    class="btn btn--white">Visit website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>PHP</li>
+                                    <li>Laravel</li>
+                                    <li>Angular and React</li>
+                                    <li>MySQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-value"> Appointment Manager</p>
+                                    <p class="card__price-only">See an academic or career advisor today</p>
+                                </div>
+                                <a href="https://am.ufv.ca/amonline/" target="_blank" class="btn btn--white">Visit
+                                    website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- APP -->
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--4">
+                                &nbsp;
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>Node</li>
+                                    <li>Express</li>
+                                    <li>Mongo</li>
+                                    <li>jQuery</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-4">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-value">Relentless Conference</p>
+                                    <p class="card__price-only">Thanks for coming!</p>
+                                </div>
+                                <a href="http://relentless-sfcbc.herokuapp.com/" target="_blank"
+                                    class="btn btn--white">Visit website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--5">
+                                &nbsp;
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>Node</li>
+                                    <li>Angular</li>
+                                    <li>Express</li>
+                                    <li>Mongo</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-5">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-value">Big Orange</p>
+                                    <p class="card__price-only">Order now!</p>
+                                </div>
+                                <a href="http://bigorange.herokuapp.com/" target="_blank" class="btn btn--white">Visit
+                                    website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <div class="card__details">
+                                <ul>
+                                    <li>Node</li>
+                                    <li>Express</li>
+                                    <li>Socket.io</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-value">Node Messenger</p>
+                                    <p class="card__price-only">Let's talk!</p>
+                                </div>
+                                <a href="https://nodesocketmessenger.herokuapp.com/" target="_blank"
+                                    class="btn btn--white">Visit website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="u-center-text u-margin-top-huge">
+                <a href="https://github.com/gilberthoop" target="_blank" class="btn btn--green">Check out my Github</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="https://www.instagram.com/gilberthoop/" target="_blank"
+                                class="footer__link">Instagram</a></li>
+                        <li class="footer__item"><a href="https://www.facebook.com/gilberthoop/" target="_blank"
+                                class="footer__link">Facebook</a></li>
+                        <li class="footer__item"><a href="https://www.github.com/gilberthoop/" target="_blank"
+                                class="footer__link">Github</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Special thanks to Jonas Schmedtmann for teaching me Syntactically Awesome Style Sheets (SASS).
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
