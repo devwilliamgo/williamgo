@@ -272,17 +272,17 @@ body {
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, rgba(77, 51, 51, 0.85), rgba(77, 73, 73, 0.85)); }
+        background-image: linear-gradient(to right bottom, rgba(77, 51, 51, 0.5), rgba(77, 51, 51, 0.9)); }
       .card__side--back-2 {
-        background-image: linear-gradient(to right bottom, rgba(45, 202, 39, 0.993), rgba(88, 167, 79, 0.705)); }
+        background-image: linear-gradient(to right bottom, rgba(57, 165, 45, 0.5), rgba(45, 202, 39, 0.993)); }
       .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
+        background-image: linear-gradient(to right bottom, #2998ff4a, #5643fa); }
       .card__side--back-4 {
-        background-image: linear-gradient(to right bottom, rgba(60, 4, 105, 0.918), rgba(42, 6, 88, 0.329)); }
+        background-image: linear-gradient(to right bottom, rgba(42, 6, 88, 0.329), rgba(60, 4, 105, 0.918)); }
       .card__side--back-5 {
-        background-image: linear-gradient(to right bottom, rgba(235, 191, 133, 0.753), rgba(245, 174, 43, 0.925)); }
+        background-image: linear-gradient(to right bottom, rgba(243, 178, 94, 0.568), rgba(248, 166, 15, 0.925)); }
       .card__side--back-6 {
-        background-image: linear-gradient(to right bottom, rgba(255, 162, 0, 0.753), rgba(255, 56, 0, 0.925)); }
+        background-image: linear-gradient(to right bottom, rgba(255, 153, 0, 0.452), #ff8000); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
