@@ -995,7 +995,11 @@ body {
 
 .indented {
   margin: auto 15rem;
-  @media only screen and (max-width: 900px) {
-    margin: 0;
-  }
 }
+
+
+  @media only screen and (max-width: 900px) {
+    .indented {
+      margin: 0;
+    }
+  }
