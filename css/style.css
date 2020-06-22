@@ -827,6 +827,7 @@ body {
       right: 3rem; } }
 
 .navigation__background {
+  display: none;
   height: 6rem;
   width: 6rem;
   border-radius: 50%;
@@ -846,6 +847,7 @@ body {
       right: 3.5rem; } }
 
 .navigation__nav {
+  display: none;
   height: 100vh;
   position: fixed;
   top: 0;
