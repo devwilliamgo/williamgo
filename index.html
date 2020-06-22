@@ -20,7 +20,7 @@
     <div class="navigation">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
-        <label for="navi-toggle" class="navigation__button">
+        <label onclick="toggleNav()" for="navi-toggle" class="navigation__button">
             <span class="navigation__icon">&nbsp;</span>
         </label>
 
@@ -366,5 +366,21 @@
             </div>
         </div>
     </footer>
+    
+    <script>
+        function toggleNav() {
+	        var navBG = document.getElementById("nav-bg");
+	        var navLink = document.getElementById("nav-link");
+
+	        if (navBG.style.display === "none" && navLink.style.display === "none") {
+		        navBG.style.display = "block";
+		        navLink.style.display = "block";
+	        } else {
+		        navBG.style.display = "block";
+		        navLink.style.display = "block";
+	        }
+	
+        }
+    </script>
 </body>
 </html>
