@@ -20,7 +20,7 @@
     <div class="navigation">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
-        <label onclick="toggleNav()" for="navi-toggle" class="navigation__button">
+        <label for="navi-toggle" class="navigation__button">
             <span class="navigation__icon">&nbsp;</span>
         </label>
 
@@ -28,11 +28,16 @@
 
         <nav class="navigation__nav" id="nav-link">
             <ul class="navigation__list">
-                <li class="navigation__item"><a onclick="toggleNav()" href="#about" class="navigation__link"><span>01</span>About Me</a></li>
-                <li class="navigation__item"><a onclick="toggleNav()" href="#skills" class="navigation__link"><span>02</span>Skills</a></li>
-                <li class="navigation__item"><a onclick="toggleNav()" href="#section-tours"
-                        class="navigation__link"><span>03</span>Projects</a></li>
-            </ul>
+		<label for="navi-toggle">
+                	<li class="navigation__item"><a href="#about" class="navigation__link"><span>01</span>About Me</a></li>
+		</label>
+		<label for="navi-toggle">
+			<li class="navigation__item"><a href="#skills" class="navigation__link"><span>02</span>Skills</a></li>
+		</label>
+		<label for="navi-toggle">
+			<li class="navigation__item"><a href="#section-tours" class="navigation__link"><span>03</span>Projects</a></li>
+		</label>
+	    </ul>
         </nav>
     </div>
 
