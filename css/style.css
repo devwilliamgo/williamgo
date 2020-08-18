@@ -1004,3 +1004,7 @@ body {
       margin: 0;
     }
   }
+
+.bio {
+  margin: 0 15% !important; 
+}
